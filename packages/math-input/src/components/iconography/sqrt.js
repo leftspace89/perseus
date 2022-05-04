@@ -8,31 +8,31 @@ import * as React from "react";
 
 const Sqrt = (props: {|color: string|}): React.Node => {
     return (
-        <svg width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="48" height="48">
             <defs>
                 <path id="a" d="M0 0h600v956H0z" />
             </defs>
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
                 <path fill="none" d="M0 0h48v48H0z" />
                 <path
                     stroke={props.color}
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m14 29 4 6 9-14h7"
                 />
                 <g transform="translate(-366 -722)">
                     <mask id="b" fill="#fff">
-                        <use xlinkHref="#a" />
+                        <use xlinkhref="#a" />
                     </mask>
-                    <use fill="#FAFAFA" xlink:href="#a" />
+                    <use xlink:href="#a" fill="#FAFAFA" />
                     <g mask="url(#b)">
                         <path fill="none" d="M366 722h48v48h-48z" />
                         <path
                             stroke="#3B3E40"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="m380 751 4 6 9-14h7"
                         />
                     </g>

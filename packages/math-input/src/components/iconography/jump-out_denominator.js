@@ -8,64 +8,64 @@ import * as React from "react";
 
 const Jump_out_denominator = (): React.Node => {
     return (
-        <svg width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="48" height="48">
             <defs>
                 <path id="a" d="M0 0h600v956H0z" />
             </defs>
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
                 <path fill="none" d="M0 0h48v48H0z" />
                 <path fill="none" d="M12 12h24v24H12z" />
                 <path
-                    d="M35 16v16M31 28v-4h-4M25 30l6-6"
                     stroke="#78C008"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M35 16v16M31 28v-4h-4M25 30l6-6"
                 />
                 <path
+                    fill="#888D93"
                     d="M14 27.997c0-.55.453-.997.997-.997h6.006c.55 0 .997.453.997.997v6.006c0 .55-.453.997-.997.997h-6.006c-.55 0-.997-.453-.997-.997v-6.006ZM16 29h4v4h-4v-4Z"
-                    fill="#888D93"
                 />
                 <path
-                    d="M23 24H13"
                     stroke="#888D93"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M23 24H13"
                 />
                 <path
-                    d="M14 13.997c0-.55.453-.997.997-.997h6.006c.55 0 .997.453.997.997v6.006c0 .55-.453.997-.997.997h-6.006c-.55 0-.997-.453-.997-.997v-6.006ZM16 15h4v4h-4v-4Z"
                     fill="#888D93"
+                    d="M14 13.997c0-.55.453-.997.997-.997h6.006c.55 0 .997.453.997.997v6.006c0 .55-.453.997-.997.997h-6.006c-.55 0-.997-.453-.997-.997v-6.006ZM16 15h4v4h-4v-4Z"
                 />
                 <g transform="translate(-118 -284)">
                     <mask id="b" fill="#fff">
-                        <use xlinkHref="#a" />
+                        <use xlinkhref="#a" />
                     </mask>
-                    <use fill="#FAFAFA" xlink:href="#a" />
+                    <use xlink:href="#a" fill="#FAFAFA" />
                     <g mask="url(#b)">
                         <path fill="none" d="M118 284h48v48h-48z" />
                         <path fill="none" d="M130 296h24v24h-24z" />
                         <path
-                            d="M153 300v16M149 312v-4h-4M143 314l6-6"
                             stroke="#78C008"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M153 300v16M149 312v-4h-4M143 314l6-6"
                         />
                         <path
+                            fill="#888D93"
                             d="M132 311.997c0-.55.453-.997.997-.997h6.006c.55 0 .997.453.997.997v6.006c0 .55-.453.997-.997.997h-6.006c-.55 0-.997-.453-.997-.997v-6.006Zm2 1.003h4v4h-4v-4Z"
-                            fill="#888D93"
                         />
                         <path
-                            d="M141 308h-10"
                             stroke="#888D93"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M141 308h-10"
                         />
                         <path
-                            d="M132 297.997c0-.55.453-.997.997-.997h6.006c.55 0 .997.453.997.997v6.006c0 .55-.453.997-.997.997h-6.006c-.55 0-.997-.453-.997-.997v-6.006Zm2 1.003h4v4h-4v-4Z"
                             fill="#888D93"
+                            d="M132 297.997c0-.55.453-.997.997-.997h6.006c.55 0 .997.453.997.997v6.006c0 .55-.453.997-.997.997h-6.006c-.55 0-.997-.453-.997-.997v-6.006Zm2 1.003h4v4h-4v-4Z"
                         />
                     </g>
                 </g>

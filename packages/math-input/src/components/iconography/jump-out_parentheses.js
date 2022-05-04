@@ -8,47 +8,47 @@ import * as React from "react";
 
 const Jump_out_parentheses = (): React.Node => {
     return (
-        <svg width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="48" height="48">
             <defs>
                 <path id="a" d="M0 0h600v956H0z" />
             </defs>
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
                 <path fill="none" d="M0 0h48v48H0z" />
                 <path fill="none" d="M12 12h24v24H12z" />
                 <path
-                    d="M24 18c3 3 3 9 0 12M18 18c-3 3-3 9 0 12"
                     stroke="#888D93"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M24 18c3 3 3 9 0 12M18 18c-3 3-3 9 0 12"
                 />
                 <path
                     stroke="#78C008"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="m32 27 3-3-3-3M22 24h12"
                 />
                 <g transform="translate(-118 -148)">
                     <mask id="b" fill="#fff">
-                        <use xlinkHref="#a" />
+                        <use xlinkhref="#a" />
                     </mask>
-                    <use fill="#FAFAFA" xlink:href="#a" />
+                    <use xlink:href="#a" fill="#FAFAFA" />
                     <g mask="url(#b)">
                         <path fill="none" d="M118 148h48v48h-48z" />
                         <path fill="none" d="M130 160h24v24h-24z" />
                         <path
-                            d="M142 166c3 3 3 9 0 12M136 166c-3 3-3 9 0 12"
                             stroke="#888D93"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M142 166c3 3 3 9 0 12M136 166c-3 3-3 9 0 12"
                         />
                         <path
                             stroke="#78C008"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="m150 175 3-3-3-3M140 172h12"
                         />
                     </g>

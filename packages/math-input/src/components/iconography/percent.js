@@ -8,65 +8,65 @@ import * as React from "react";
 
 const Percent = (props: {|color: string|}): React.Node => {
     return (
-        <svg width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="48" height="48">
             <defs>
                 <path id="a" d="M0 0h600v956H0z" />
             </defs>
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
                 <path fill="none" d="M0 0h48v48H0z" />
                 <g transform="translate(12 12)">
                     <path fill="none" d="M0 0h24v24H0z" />
                     <path
-                        d="M16 4 8 20"
                         stroke={props.color}
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M16 4 8 20"
                     />
                     <circle
-                        stroke="#3B3E40"
-                        stroke-width="2"
                         cx="7"
                         cy="7"
                         r="3"
+                        stroke="#3B3E40"
+                        strokeWidth="2"
                     />
                     <circle
-                        stroke="#3B3E40"
-                        stroke-width="2"
                         cx="17"
                         cy="17"
                         r="3"
+                        stroke="#3B3E40"
+                        strokeWidth="2"
                     />
                 </g>
                 <g transform="translate(-186 -450)">
                     <mask id="b" fill="#fff">
-                        <use xlinkHref="#a" />
+                        <use xlinkhref="#a" />
                     </mask>
-                    <use fill="#FAFAFA" xlink:href="#a" />
+                    <use xlink:href="#a" fill="#FAFAFA" />
                     <g mask="url(#b)">
                         <path fill="none" d="M186 450h48v48h-48z" />
                         <g transform="translate(198 462)">
                             <path fill="none" d="M0 0h24v24H0z" />
                             <path
-                                d="M16 4 8 20"
                                 stroke="#3B3E40"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M16 4 8 20"
                             />
                             <circle
-                                stroke="#3B3E40"
-                                stroke-width="2"
                                 cx="7"
                                 cy="7"
                                 r="3"
+                                stroke="#3B3E40"
+                                strokeWidth="2"
                             />
                             <circle
-                                stroke="#3B3E40"
-                                stroke-width="2"
                                 cx="17"
                                 cy="17"
                                 r="3"
+                                stroke="#3B3E40"
+                                strokeWidth="2"
                             />
                         </g>
                     </g>

@@ -8,34 +8,34 @@ import * as React from "react";
 
 const Times = (props: {|color: string|}): React.Node => {
     return (
-        <svg width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="48" height="48">
             <defs>
                 <path id="a" d="M0 0h600v956H0z" />
             </defs>
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
                 <path fill="none" d="M0 0h48v48H0z" />
                 <path fill="none" d="M12 12h24v24H12z" />
                 <path
-                    d="m20 20 8 8M28 20l-8 8"
                     stroke={props.color}
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="m20 20 8 8M28 20l-8 8"
                 />
                 <g transform="translate(-50 -518)">
                     <mask id="b" fill="#fff">
-                        <use xlinkHref="#a" />
+                        <use xlinkhref="#a" />
                     </mask>
-                    <use fill="#FAFAFA" xlink:href="#a" />
+                    <use xlink:href="#a" fill="#FAFAFA" />
                     <g mask="url(#b)">
                         <path fill="none" d="M50 518h48v48H50z" />
                         <path fill="none" d="M62 530h24v24H62z" />
                         <path
-                            d="m70 538 8 8M78 538l-8 8"
                             stroke="#3B3E40"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="m70 538 8 8M78 538l-8 8"
                         />
                     </g>
                 </g>

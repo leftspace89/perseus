@@ -8,34 +8,34 @@ import * as React from "react";
 
 const Neq = (props: {|color: string|}): React.Node => {
     return (
-        <svg width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg width="48" height="48">
             <defs>
                 <path id="a" d="M0 0h600v956H0z" />
             </defs>
-            <g fill="none" fill-rule="evenodd">
+            <g fill="none" fillRule="evenodd">
                 <path fill="none" d="M0 0h48v48H0z" />
                 <path fill="none" d="M12 12h24v24H12z" />
                 <path
-                    d="m19 33 10-18M16 21h17M16 27h17"
                     stroke={props.color}
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="m19 33 10-18M16 21h17M16 27h17"
                 />
                 <g transform="translate(-434 -586)">
                     <mask id="b" fill="#fff">
-                        <use xlinkHref="#a" />
+                        <use xlinkhref="#a" />
                     </mask>
-                    <use fill="#FAFAFA" xlink:href="#a" />
+                    <use xlink:href="#a" fill="#FAFAFA" />
                     <g mask="url(#b)">
                         <path fill="none" d="M434 586h48v48h-48z" />
                         <path fill="none" d="M446 598h24v24h-24z" />
                         <path
-                            d="m453 619 10-18M450 607h17M450 613h17"
                             stroke="#3B3E40"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="m453 619 10-18M450 607h17M450 613h17"
                         />
                     </g>
                 </g>
