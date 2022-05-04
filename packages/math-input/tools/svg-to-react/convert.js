@@ -125,15 +125,21 @@ const main = async () => {
             path.join(inputDirName, filename),
             "utf-8",
         );
-        const optimizedSvg /*: string */ = optimize(rawSvg, {
+        const result = optimize(rawSvg, {
             plugins: [
                 // set of built-in plugins enabled by default
                 "preset-default",
                 "removeXMLNS",
             ],
-        }).data;
+        });
 
-        const contents = optimizedSvg
+        if (result.modernError) {
+            console.error(
+                `ERROR: ${filename} contains invalid SVG: ${result.modernError.toString()}`,
+            );
+        }
+
+        const contents = result.data
             // Replace color so it can be passed in as props
             .replace(`"${color}"`, (match) => {
                 useSimple = false;
